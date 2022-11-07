@@ -21,7 +21,7 @@ CREATE TABLE "Game" (
     "id" TEXT NOT NULL PRIMARY KEY,
     "date" DATETIME NOT NULL,
     "firstTeamCountryCode" TEXT NOT NULL,
-    "secondTeamContryCode" TEXT NOT NULL
+    "secondTeamCountryCode" TEXT NOT NULL
 );
 
 -- CreateTable
