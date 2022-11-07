@@ -5,6 +5,7 @@ import { New } from "../pages/New";
 import { Pools } from "../pages/Pools";
 import { Platform } from "react-native";
 import { Find } from "../pages/Find";
+import { Details } from "../pages/Details";
 
 const { Navigator, Screen } = createBottomTabNavigator();
 
@@ -51,6 +52,13 @@ export function AppRoutes() {
       <Screen
         name="find"
         component={Find}
+        options={{
+          tabBarButton: () => null,
+        }}
+      />
+      <Screen
+        name="details"
+        component={Details}
         options={{
           tabBarButton: () => null,
         }}
